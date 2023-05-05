@@ -23,7 +23,7 @@ const Home: NextPage = () => {
           <img src="https://ipfs.thirdwebcdn.com/ipfs/QmY5ZLAHfGTa27pEpS7ZCMnV625wveTBfAkboiPNENCAaU/goonzgif.gif" alt="drop" width={300} height={300} />
           <h2 className={styles.selectBoxTitle}>JELLYG00NZ MINT</h2>
           <p className={styles.selectBoxDescription}>
-            Mint a JELLYG00N for 3333 $JELLY
+            Mint a JELLYG00N for <b>10 MATIC</b>
           </p>
         </div>
 
