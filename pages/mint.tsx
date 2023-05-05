@@ -28,7 +28,7 @@ const Mint: NextPage = () => {
           alert(error);
         }}
       >
-        Mint for 3333$JELLY
+        10 Matic
       </Web3Button>
     </div>
   );
