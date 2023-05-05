@@ -1,4 +1,4 @@
-import { Web3Button } from "@thirdweb-dev/react";
+import { MediaRenderer, Web3Button } from "@thirdweb-dev/react";
 import type { NextPage } from "next";
 import { useRouter } from "next/router";
 import { nftDropContractAddress } from "../consts/contractAddresses";
