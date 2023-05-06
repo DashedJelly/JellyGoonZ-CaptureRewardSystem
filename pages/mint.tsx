@@ -21,13 +21,13 @@ const Mint: NextPage = () => {
         contractAddress={nftDropContractAddress}
         action={(contract) => contract.erc721.claim(1)}
         onSuccess={() => {
-          alert("NFT Claimed!");
+          alert("G00N Captured!");
           router.push("/stake");
         }}
         onError={(error) => {
           alert(error);
         }}
-      ><MediaRenderer src="ipfs://Qmf8YEt5L1su6Yqe9scQpe6NodCxFSSHD8fFrFiv9WFobd/goonzbanner.png" width="200"/>
+      ><MediaRenderer src="ipfs://Qmf8YEt5L1su6Yqe9scQpe6NodCxFSSHD8fFrFiv9WFobd/goonzbanner.png" width="70"/>
         10 Matic
       </Web3Button>
     </div>
