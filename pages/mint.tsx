@@ -27,7 +27,7 @@ const Mint: NextPage = () => {
         onError={(error) => {
           alert(error);
         }}
-      ><MediaRenderer src="ipfs://Qmf8YEt5L1su6Yqe9scQpe6NodCxFSSHD8fFrFiv9WFobd/goonzbanner.png" width="70"/>
+      ><MediaRenderer src="ipfs://Qmf8YEt5L1su6Yqe9scQpe6NodCxFSSHD8fFrFiv9WFobd/goonzbanner.png" width="30"/>
         10 Matic
       </Web3Button>
     </div>
