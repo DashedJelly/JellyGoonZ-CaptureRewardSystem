@@ -11,6 +11,7 @@ const Mint: NextPage = () => {
   return (
     
     <div className={styles.container}>
+      <div className={styles.backgroundImage}></div>
       <Web3Button
   
   theme="light"
