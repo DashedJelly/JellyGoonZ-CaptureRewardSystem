@@ -14,8 +14,8 @@ const Mint: NextPage = () => {
       <div className={styles.backgroundImage}></div>
      
 <MediaRenderer src={"https://ipfs.thirdwebcdn.com/ipfs/QmdrYNRn6ruhGSfhPmXzDmijKL7a7ip8rej23aadWCMMEG/goonztitle.png"} height="20"/>
-       <Web3Button
-  
+      
+ <Web3Button
   theme="light"
   contractAddress={nftDropContractAddress}
   action={(contract) => contract.erc721.claim(1)}
