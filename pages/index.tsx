@@ -10,9 +10,13 @@ const Home: NextPage = () => {
   return (
     
     <div className={styles.container}>
-      <ConnectWallet/>
+      
+      <div></div>
+      <ConnectWallet theme="dark"/>
+      {/* Background Image */}
+      <div className={styles.backgroundImage}></div>
+
       {/* Top Section */}
-      <h1 className={styles.h1}>LAB 33 : G00NZ</h1>
       <div className={styles.nftBoxGrid}>
         <div
           className={styles.optionSelectBox}
@@ -20,10 +24,15 @@ const Home: NextPage = () => {
           onClick={() => router.push(`/mint`)}
         >
           {/* Mint a new NFT */}
-          <img src="https://ipfs.thirdwebcdn.com/ipfs/QmY5ZLAHfGTa27pEpS7ZCMnV625wveTBfAkboiPNENCAaU/goonzgif.gif" alt="drop" width={300} height={300} />
+          <img
+            src="https://ipfs.thirdwebcdn.com/ipfs/QmY5ZLAHfGTa27pEpS7ZCMnV625wveTBfAkboiPNENCAaU/goonzgif.gif"
+            alt="drop"
+            width={300}
+            height={300}
+          />
           <h2 className={styles.selectBoxTitle}>JELLYG00NZ MINT</h2>
           <p className={styles.selectBoxDescription}>
-            Mint a JELLYG00N for <b>10 MATIC</b>
+            Mint a JELLYG00N 10 Matic
           </p>
         </div>
 
@@ -39,9 +48,9 @@ const Home: NextPage = () => {
             Bring All Captured JellyGoonz into the Lab Please...
           </p>
         </div>
-        </div>
+        <div><MediaRenderer src="https://ipfs.thirdwebcdn.com/ipfs/QmdrYNRn6ruhGSfhPmXzDmijKL7a7ip8rej23aadWCMMEG/goonztitle.png"/></div>
       </div>
-    
+    </div>
   );
 };
 
