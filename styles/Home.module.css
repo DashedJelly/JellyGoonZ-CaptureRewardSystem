@@ -11,6 +11,36 @@
   
 }
 
+.backgroundImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 200%;
+  background-image: url("https://ipfs.thirdwebcdn.com/ipfs/QmcPsp5aqMMCNdqk4igfPPuo2KqjoW3AFaR5hGww8iPd5R/mush%20lab.png");
+  opacity: 0.45;
+  /* Additional styling properties */
+  background-size: cover;
+  background-position: center;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.backgroundImage2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://ipfs.thirdwebcdn.com/ipfs/QmQKS5ojrei4zKy1KQ9qXkLGsUXNwXBB6q4PuNAY6FnBNA/Dashed_Jelly_Cartoon_Gear_landscape_with_dripping_Jelly_90331b25-97ec-4740-acc6-71c656099e61.png");
+  opacity: 0.15;
+  /* Additional styling properties */
+  background-size: cover;
+  background-position: center;
+  pointer-events: none;
+  z-index: -1;
+}
+
 .h1 {
   margin-bottom: 0px;
   color: rgb(167, 109, 233);
@@ -61,7 +91,7 @@
 
 .optionSelectBox {
   border-radius: 36px;
-  border: 2px solid #c00df7;
+  border: 2px solid #10c4bb;
   width: 48%;
   min-height: 200px;
   height: 100%;
@@ -81,7 +111,7 @@
 }
 
 .selectBoxDescription {
-  color: rgba(182, 72, 154, 0.9);
+  color: rgba(146, 233, 240, 0.9);
   margin-top: 0px;
 }
 
