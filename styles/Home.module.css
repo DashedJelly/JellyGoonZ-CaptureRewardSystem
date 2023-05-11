@@ -26,21 +26,6 @@
   z-index: -1;
 }
 
-.backgroundImage2 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url("https://ipfs.thirdwebcdn.com/ipfs/QmQKS5ojrei4zKy1KQ9qXkLGsUXNwXBB6q4PuNAY6FnBNA/Dashed_Jelly_Cartoon_Gear_landscape_with_dripping_Jelly_90331b25-97ec-4740-acc6-71c656099e61.png");
-  opacity: 0.15;
-  /* Additional styling properties */
-  background-size: cover;
-  background-position: center;
-  pointer-events: none;
-  z-index: -1;
-}
-
 .h1 {
   margin-bottom: 0px;
   color: rgb(167, 109, 233);
