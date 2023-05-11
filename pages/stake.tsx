@@ -69,7 +69,7 @@ const Stake: NextPage = () => {
 
   return (
     <div className={styles.container}>
-      <div className={styles.backgroundImage}></div>
+     
       <h1 className={styles.h1}>LAB:03:REWARD SYSTEM</h1>
       <hr className={`${styles.divider} ${styles.spacerTop}`} />
 
