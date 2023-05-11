@@ -12,7 +12,9 @@ const Mint: NextPage = () => {
     
     <div className={styles.container}>
       <div className={styles.backgroundImage}></div>
-      <Web3Button
+     
+<MediaRenderer src={"https://ipfs.thirdwebcdn.com/ipfs/QmdrYNRn6ruhGSfhPmXzDmijKL7a7ip8rej23aadWCMMEG/goonztitle.png"} height="20"/>
+       <Web3Button
   
   theme="light"
   contractAddress={nftDropContractAddress}
@@ -28,7 +30,6 @@ const Mint: NextPage = () => {
 >
   Mint for 10 Matic
 </Web3Button>
-<MediaRenderer src={"https://ipfs.thirdwebcdn.com/ipfs/QmdrYNRn6ruhGSfhPmXzDmijKL7a7ip8rej23aadWCMMEG/goonztitle.png"} height="20"/>
       <hr className={`${styles.smallDivider} ${styles.detailPageHr}`} />
       <p className={styles.explain}>
       
