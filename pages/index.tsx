@@ -24,12 +24,9 @@ const Home: NextPage = () => {
           onClick={() => router.push(`/mint`)}
         >
           {/* Mint a new NFT */}
-          <img
-            src="https://ipfs.thirdwebcdn.com/ipfs/QmY5ZLAHfGTa27pEpS7ZCMnV625wveTBfAkboiPNENCAaU/goonzgif.gif"
-            alt="drop"
-            width={300}
-            height={300}
-          />
+          
+            <MediaRenderer src="https://ipfs.thirdwebcdn.com/ipfs/QmY5ZLAHfGTa27pEpS7ZCMnV625wveTBfAkboiPNENCAaU/goonzgif.gif" />
+            
           <h2 className={styles.selectBoxTitle}>JELLYG00NZ MINT</h2>
           <p className={styles.selectBoxDescription}>
             Mint a JELLYG00N 10 Matic
@@ -48,7 +45,7 @@ const Home: NextPage = () => {
             Bring All Captured JellyGoonz into the Lab Please...
           </p>
         </div>
-        <div><MediaRenderer src="https://ipfs.thirdwebcdn.com/ipfs/QmdrYNRn6ruhGSfhPmXzDmijKL7a7ip8rej23aadWCMMEG/goonztitle.png"/></div>
+        
       </div>
     </div>
   );
