@@ -1,5 +1,4 @@
 import type { NextPage } from "next";
-import Image from "next/image";
 import { useRouter } from "next/router";
 import styles from "../styles/Home.module.css";
 import { ConnectWallet, MediaRenderer } from "@thirdweb-dev/react";
@@ -14,7 +13,6 @@ const Home: NextPage = () => {
       <div></div>
       <ConnectWallet theme="dark"/>
       {/* Background Image */}
-      <div className={styles.backgroundImage}></div>
 
       {/* Top Section */}
       <div className={styles.nftBoxGrid}>
