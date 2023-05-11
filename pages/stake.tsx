@@ -1,5 +1,6 @@
 import {
   ConnectWallet,
+  MediaRenderer,
   ThirdwebNftMedia,
   useAddress,
   useContract,
@@ -18,6 +19,7 @@ import {
   tokenContractAddress,
 } from "../consts/contractAddresses";
 import styles from "../styles/Home.module.css";
+import Image from "next/image";
 
 const Stake: NextPage = () => {
   const address = useAddress();
@@ -131,8 +133,10 @@ const Stake: NextPage = () => {
                   DEPOSIT
                 </Web3Button>
               </div>
+              
             ))}
           </div>
+          
         </>
       )}
     </div>
