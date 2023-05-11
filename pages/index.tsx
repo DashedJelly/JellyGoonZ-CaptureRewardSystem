@@ -9,7 +9,7 @@ const Home: NextPage = () => {
   return (
     
     <div className={styles.container}>
-      
+      <div className={styles.backgroundImage}></div>
       
       <ConnectWallet theme="dark"/>
       {/* Background Image */}
