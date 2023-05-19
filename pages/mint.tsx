@@ -28,7 +28,7 @@ const Mint: NextPage = () => {
     
   }}
 >
-  Mint for 10 Matic
+  Mint for 4200$JELLY
 </Web3Button>
       <hr className={`${styles.smallDivider} ${styles.detailPageHr}`} />
       <p className={styles.explain}>
