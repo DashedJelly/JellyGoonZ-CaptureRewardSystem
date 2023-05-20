@@ -27,7 +27,7 @@ const Home: NextPage = () => {
             
           <h2 className={styles.selectBoxTitle}>JELLYG00NZ MINT</h2>
           <p className={styles.selectBoxDescription}>
-            Mint a JELLYG00N 4200$JELLY
+            Mint a JELLYG00N 10 Matic
           </p>
         </div>
 
